@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soal nomor 1</title>
+</head>
+<body>
+<h1>SELAMAT DATANG</h1>
+<input type="image" src="Logo Universitas Muslim Indonesia Makassar.png" alt="Submit" width="100px"><br>
+<form action="/action_page.php">
+<label for="Muhammad ">Nama Lengkap: </label>
+<input type="text" id="fname" name="fname">
+<br>
+
+<label for="fname">NIM</label>
+<input type="text" id="fname" name="fname">
+<input type="hidden" id="custId" name="custId" value="3487"><br>
+
+<label for="birthday">Tahun Lahir:</label>
+<input type="date" id="birthday" name="birthday"><br>
+
+<label for="birthdaytime">hari dan tanggal dilaksanakannya meeting:</label>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+
+<label for="email">masukkan email <br></label>
+<input type="email" id="email" name="email">
+<br>
+
+<label for="pwd">Password <br></label>
+<input type="password" id="pwd" name="pwd" minlength="8"><br>
+
+<label for ="">Makanan kesukaan <br></label>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Nasi goreng</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> Nasi Kuning</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Nasi Padang</label><br>
+
+<label for="favcolor">warna yang disukai?:</label>
+<input type="color" id="favcolor" name="favcolor"><br><br>
+
+  <label for="myfile">masukkan berkas:</label>
+  <input type="file" id="myfile" name="myfile"><br>
+
+  <p>bahasa pemrograman yang kamu sukai:</p>
+    <input type="radio" id="radio" name="barcelona" value="barcelona">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+
+  <label for="week">pilih hari minggu:</label>
+  <input type="week" id="week" name="week">
+
+  <label for="appt">jam:</label>
+  <input type="time" id="appt" name="appt"><br>
+
+  <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage"><br>
+
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br>
+  <small>Format:1111-1111-1111</small><br>
+
+  <label for="gsearch">pencarian Google:</label>
+  <input type="search" id="gsearch" name="gsearch"><br>
+
+  <label for="bdaymonth">(bulan dan tahun):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth"><br>
+
+  <label for="quantity">jumlah (dari 1 sampai 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+
+  <input type="reset" value="Reset">
+  <input type="button" value="kirim" onclick="msg()">
+</from>
+
+</body>
+</html>
